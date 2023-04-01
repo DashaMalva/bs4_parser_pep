@@ -71,8 +71,8 @@ def latest_versions(session) -> list[tuple]:
         if 'All versions' in ul.text:
             a_tags = ul.find_all('a')
             break
-        else:
-            raise Exception('Не найден список c версиями Python')
+    else:
+        raise Exception('Не найден список c версиями Python')
 
     results = [('Ссылка на документацию', 'Версия', 'Статус')]
     pattern = r'Python (?P<version>\d\.\d+) \((?P<status>.*)\)'
