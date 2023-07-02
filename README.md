@@ -1,13 +1,14 @@
 # Учебный парсер PythonPEP
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
-## Описание
+
 ```PythonPEP``` - парсер официального сайта документации Python и документов PEP.<br>
-### Технологии:
+## Технологии:
 - Python 3.11
 - requests-cache 1.0.0
 - Beautiful Soup 4.9.3
 - lxml 4.9.2 (парсер Beautiful Soup)
 - tqdm 4.61 (прогресс-бар)
+## Описание
 ### Возможности парсера:
 - предоставлять ссылки на статьи о нововведениях в Python,
 - предоставлять информацию о существующих версиях Python,
