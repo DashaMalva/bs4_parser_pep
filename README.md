@@ -1,6 +1,7 @@
-# Проект Парсер PythonPEP
+# Учебный парсер PythonPEP
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 ## Описание
-```Парсер PythonPEP``` - парсер официального сайта документации Python и документов PEP.<br>
+```PythonPEP``` - парсер официального сайта документации Python и документов PEP.<br>
 ### Технологии:
 - Python 3.11
 - requests-cache 1.0.0
